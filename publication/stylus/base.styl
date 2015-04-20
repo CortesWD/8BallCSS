@@ -1,0 +1,171 @@
+body
+	background-color moradoOscuro
+	font-family droid
+	font-size 1em
+	height 100%
+	width @height
+
+footer
+	background-color #132530
+	color #fff
+	
+	a
+		color #fff
+		text-decoration none
+		
+		&:hover
+			color #0091b2
+			
+	h2
+		text-transform uppercase
+	
+
+#shake
+	background-color azulBRM
+	border none
+	border-radius 2em
+	box-shadow 0 0.2em 0 0 #0a6877
+	color #fff
+	display block
+	font-size 1.8em
+	margin 0 auto 2em
+	padding 0.5em 4em
+	position relative
+	z-index 6
+	transition all ease-in-out 0.05s
+	
+	&:hover, &:focus
+		outline 0
+		// background-color #0a6877
+	
+	&:active
+		background-color #0a6877
+		box-shadow none
+		transform translateY(0.2em)
+		
+
+		
+.ball
+	background-color #333
+	border-radius 50%
+	box-shadow inset -10px 10px 50px rgba(80,130,180,0.6), inset 5px -5px 50px rgba(0,0,0,1), inset 50px -50px 200px rgba(0,0,0,1), inset 0px -20px 60px rgba(62,0,60, 1), 0 0 5em 5em rgba(41,0,45,0.5)
+	display block
+	height 30em
+	margin 1em auto
+	overflow hidden
+	position relative
+	width @height
+
+	.shine
+		background radial-gradient(ellipse at center, rgba(255,255,255,0.2) 0%,rgba(242,242,242,0.2) 7%,rgba(30,30,30,0.1) 30%,rgba(30,30,30,0.00) 100%)
+		border-radius 100%
+		bottom 18%
+		height 30em
+		left @bottom
+		position absolute
+		width @height
+		
+	.bizel
+		background radial-gradient(ellipse at center, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%)
+		border-radius 50%
+		height 17em
+		left 22%
+		overflow hidden
+		position relative
+		top @left
+		width @height
+		
+		&::after
+			border-radius 50%
+			box-shadow 0 0 5em 5em rgba(255,255,255,0.5)
+			content " "
+			display block
+			height 17em
+			margin 9em auto
+			overflow hidden
+			position relative
+			width @height
+		
+	.campo
+		background linear-gradient(45deg, #160024 0%,#1e001e 50%,#290024 100%)
+		border 0.2em solid #160c16
+		border-radius 50%
+		height 15em
+		left 25%
+		overflow hidden
+		position absolute
+		top @left
+		width @height
+		z-index 5
+		
+		.light
+			background radial-gradient(ellipse at center, rgba(255,255,255,0.2) 0%,rgba(242,242,242,0.2) 7%,rgba(30,30,30,0.1) 30%,rgba(30,30,30,0.00) 100%)
+			border-radius 100%
+			bottom 18%
+			height 18em
+			left @bottom
+			position absolute
+			width @height
+			
+
+		.box
+			height 14em
+			margin 4em auto
+			overflow hidden
+			position relative
+			width @height
+			p
+				color azulBRM
+				text-align center
+		
+
+.col-2
+	display inline-block
+	padding 0.5em 2em
+	vertical-align top
+	width 40%
+
+.foo_icon
+	list-style-type none
+	padding-left 0
+	width 3em
+		
+	li
+		display inline-block
+		vertical-align middle
+		width 45%
+
+.hidden
+	display none
+
+.logobrm
+	left 40%
+	margin 0 auto
+	position absolute
+	top 7%
+	width 20%
+	z-index 3
+	
+.logoFooter
+	width 30%
+
+.ocho
+	background linear-gradient(to bottom, #ffffff 1%,#d6d6d6 100%)
+	border-radius 50%
+	font-size 3em
+	height 0.6em
+	left 42%
+	padding 0.5em
+	position relative
+	text-align center
+	top 33%
+	transform perspective(56em) rotateX(52deg)
+	width @height
+	// &::before
+	// 	color #fff
+	// 	content "8"
+	// 	display block
+
+.textoGrande
+	font-size 2.5em
+	margin-top 0.3em

@@ -1,0 +1,26 @@
+{
+  "name": "Magic8Ball",
+  "title": "Magic8Ball",
+  "description": "Descripción del proyecto.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/barcom/html",
+  "author": {
+    "name": "Cristian Cortés",
+    "email": "cristian.cortes@brm.com.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/barcom/html.git"
+  },
+  "bugs": "https://github.com/barcom/html/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/barcom/html/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "1.11"
+  },
+  "keywords": []
+}
